@@ -20,4 +20,8 @@ repositories{
 
 dependencies {
     testImplementation "junit:junit:4.13.2"
+
+//dependency added by roostGPT
+testImplementation("org.mockito:mockito-core:3.12.4")
+testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
 }
